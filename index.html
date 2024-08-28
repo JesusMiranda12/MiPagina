@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FC BARÇA</title>
+     <!-- Bootstrap 5 CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+     <!-- CSS Personalizado -->
+     <style>
+         body {
+             background-color: #f8f9fa;
+         }
+         .navbar {
+             background-color: #004d98; /* Color azul del Barça */
+         }
+         .navbar-brand, .nav-link {
+             color: white;
+         }
+         .hero {
+             background-color: #a50044; /* Color granate del Barça */
+             color: white;
+             padding: 100px 0;
+             text-align: center;
+         }
+         .section-title {
+             margin-top: 50px;
+             margin-bottom: 30px;
+             text-align: center;
+         }
+         .card img {
+             height: 200px;
+             object-fit: cover;
+             margin-right: auto;
+         }
+
+         footer {
+             background-color: #004d98;
+             color: white;
+             padding: 20px 0;
+             text-align: center;
+         }
+         .table-section {
+            margin-bottom: 40px;
+        }
+        .table-section h2 {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .rivalry-section {
+            margin-bottom: 40px;
+        }
+        .rivalry-section h2 {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .rivalry-section p {
+            margin-bottom: 10px;
+        }
+        .table {
+            background-color: aqua; /* Color de fondo de la tabla */
+            color: #333; /* Color del texto */
+        }
+        .table th {
+            background-color: #007bff; /* Color de fondo para los encabezados de la tabla */
+            color: #fff; /* Color del texto de los encabezados */
+        }
+        .table td {
+            background-color: aliceblue;
+            border: 1px solid #dee2e6; /* Color del borde */
+        }
+        .player-card {
+            border: 1px solid #dee2e6;
+            border-radius: 0.375rem;
+            padding: 20px;
+            margin-bottom: 20px;
+            background-color: wheat;
+            text-align: center;
+        }
+        .player-card h3 {
+            margin-bottom: 10px;
+            color: #007bff;
+        }
+        .img-Fut {
+    width: 100%; /* Ajusta al 100% del contenedor */
+    height: auto; /* Mantiene la proporción de aspecto */
+    max-width: 300px; /* Establece un ancho máximo fijo */
+    max-height: 200px; /* Establece una altura máxima fija */
+    object-fit: cover; /* Ajusta la imagen para que cubra el área del contenedor */
+}
+     </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">FC Barcelona</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#historia">Historia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#palmares">Palmarés</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#rivalidades">Rivalidades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#jugadores">Jugadores Emblemáticos</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>FC Barcelona</h1>
+            <p>"Més que un club"</p>
+        </div>
+    </section>
+
+    <!-- Historia Section -->
+    <section id="historia" class="container">/
+        <h2 class="section-title">Historia del Club</h2>
+        <img src="Escudo.jpg" class="img-fluid" alt="Imagen de la historia del FC Barcelona">
+              <h2>Fundación y Primeros Años (1899-1920)</h2>
+        <p>
+            El FC Barcelona fue fundado el 29 de noviembre de 1899 por el suizo Hans Gamper, conocido en Cataluña como Joan Gamper. Gamper había publicado un anuncio en la revista Los Deportes buscando jugadores para formar un equipo de fútbol, y el club nació como resultado de esa convocatoria. Desde sus inicios, el Barça se destacó por su identidad abierta y cosmopolita, reflejada en la mezcla de nacionalidades de sus primeros miembros.
+            En 1902, el Barcelona ganó su primer título importante, la Copa Macaya, y en 1909, inauguró su primer estadio propio, el Camp de la Industria. A lo largo de esta primera etapa, el club comenzó a forjar su identidad competitiva y social, convirtiéndose en un referente deportivo en Cataluña.
+          </p>
+        <h2>Primeros Éxitos y la Dictadura (1920-1940)</h2>
+        <p>
+            En la década de 1920, el Barcelona consolidó su posición en el fútbol español. En 1929, ganó la primera edición de La Liga española, lo que marcó el inicio de una rivalidad histórica con el Real Madrid. Sin embargo, la Guerra Civil Española y la dictadura de Francisco Franco afectaron duramente al club. En 1936, el presidente del Barcelona, Josep Sunyol, fue asesinado por las tropas franquistas, y durante los años de la dictadura, el club sufrió represalias por su identificación con el catalanismo.
+            A pesar de la represión, el Barcelona se mantuvo como un símbolo de la identidad catalana y de la resistencia cultural. Durante este período, el club siguió obteniendo éxitos en el ámbito deportivo, ganando varias Copas de España (hoy conocidas como Copa del Rey). </p>
+        <h2>La Era de Kubala y el Camp Nou (1950-1970)</h2>
+        <p>
+            En 1950, la llegada del delantero húngaro Ladislao Kubala marcó el comienzo de una nueva era de éxitos para el Barcelona. Kubala se convirtió en una leyenda del club, liderando al equipo a la conquista de cinco títulos en la temporada 1951-1952, conocida como la temporada de las "Cinco Copas".
+            En 1957, el Barcelona inauguró el Camp Nou, su nuevo y moderno estadio, que se convertiría en uno de los templos del fútbol mundial. En los años siguientes, el Barça continuó cosechando títulos, aunque sufrió la hegemonía del Real Madrid en la competición europea durante la década de 1960.     </p>
+        <h2>La Era de Cruyff (1970-1990)</h2>
+        <p>
+            En 1973, el FC Barcelona fichó al holandés Johan Cruyff, uno de los mejores jugadores de la época. Bajo su liderazgo, el Barça ganó la Liga de 1973-1974, con una histórica victoria por 0-5 sobre el Real Madrid en el Santiago Bernabéu. Cruyff no solo dejó una huella como jugador, sino que también cambió la filosofía del club con su estilo de juego ofensivo y de posesión.
+            En 1988, Cruyff regresó al Barcelona como entrenador y formó el famoso "Dream Team", que dominó el fútbol español y europeo a principios de la década de 1990. Bajo su mando, el Barcelona ganó cuatro Ligas consecutivas (1991-1994) y su primera Copa de Europa en 1992, derrotando a la Sampdoria en la final en Wembley.   </p>
+        <h2>Ronaldinho y el Renacimiento (2000-2010)</h2>
+        <p>
+            Después de un período de altibajos en la década de 1990, el Barcelona experimentó un renacimiento a principios del siglo XXI. En 2003, Joan Laporta asumió la presidencia del club y, junto con el fichaje de Ronaldinho, inició una nueva era dorada para el FC Barcelona. Ronaldinho, con su talento y carisma, devolvió la alegría al Camp Nou, 
+            liderando al equipo hacia la conquista de la Liga en 2005 y 2006, y la segunda Liga de Campeones en 2006, derrotando al Arsenal en la final de París. El brasileño no solo fue crucial en el campo, sino que también ayudó a elevar la imagen global del Barça.
+              </p>
+        <h2>La Era de Guardiola (2008-2012)</h2>
+        <p>
+            En 2008, Pep Guardiola, exjugador del club y discípulo de Johan Cruyff, asumió como entrenador del primer equipo. Bajo su liderazgo, el Barcelona vivió una de las épocas más gloriosas de su historia. Guardiola implementó un estilo de juego basado en la posesión y la presión alta, conocido como "tiki-taka". Con jugadores como Lionel Messi, Xavi Hernández, Andrés Iniesta y Carles Puyol, el Barça se convirtió en una máquina de ganar títulos.
+            En 2009, el Barcelona hizo historia al convertirse en el primer club en ganar seis títulos en un solo año: Liga, Copa del Rey, Liga de Campeones, Supercopa de España, Supercopa de Europa y el Mundial de Clubes de la FIFA. Durante el período de Guardiola (2008-2012), el Barça ganó 14 títulos en total, incluyendo dos Champions League (2009 y 2011), siendo recordado como uno de los mejores equipos de la historia del fútbol.  </p>
+        <h2>El Tridente M-S-N y el Presente (2012-Actualidad)</h2>
+        <p>
+            Después de la salida de Guardiola en 2012, el Barcelona continuó su racha ganadora bajo la dirección de otros entrenadores como Tito Vilanova, Gerardo Martino y Luis Enrique. En 2015, con Luis Enrique al mando, el Barça volvió a alcanzar la cima del fútbol mundial con la formación del tridente ofensivo compuesto por Lionel Messi, Luis Suárez y Neymar, conocido como el M-S-N.
+            Ese año, el Barcelona logró otro triplete (Liga, Copa del Rey y Liga de Campeones), coronándose campeón de Europa tras derrotar a la Juventus en la final de Berlín. Además, el club ganó el Mundial de Clubes, sumando otro año memorable en su rica historia.
+            Durante estos años, Lionel Messi se consolidó como el mejor jugador del mundo y el máximo goleador de la historia del Barcelona y de La Liga. Bajo su liderazgo, el equipo siguió ganando títulos, aunque enfrentó desafíos tanto en el ámbito nacional como internacional.    En los últimos años, el FC Barcelona ha enfrentado desafíos tanto deportivos como financieros. La pandemia de COVID-19, junto con una mala gestión económica, llevó al club a una crisis financiera sin precedentes. En 2021, Lionel Messi, el ícono más grande de la historia del Barça, se vio obligado a dejar el club debido a las restricciones salariales impuestas por La Liga, lo que marcó el fin de una era.
+            A pesar de estos problemas, el Barcelona sigue siendo uno de los clubes más grandes y populares del mundo. Bajo la presidencia nuevamente de Joan Laporta y con jóvenes talentos como Pedri y Ansu Fati, el club busca reconstruir su camino hacia la gloria y adaptarse a los nuevos tiempos.     
+    </p>
+        <h2>Secciones Deportivas</h2>
+        <p>
+            Además del fútbol masculino, el FC Barcelona ha tenido éxito en otras disciplinas deportivas. El equipo de baloncesto del Barça es uno de los más laureados de Europa, con múltiples títulos de Liga ACB y Euroliga. El equipo de balonmano ha ganado numerosas Ligas y Copas de Europa, siendo uno de los referentes del balonmano mundial.
+            En los últimos años, el fútbol femenino del Barcelona también ha alcanzado la élite, ganando la Champions League Femenina en 2021 y dominando la liga española. Las secciones de hockey sobre patines y fútbol sala también han contribuido al palmarés del club, consolidando al FC Barcelona como una institución multideportiva de referencia mundial. 
+            
+        </p>
+             </section>
+
+    <!-- Palmarés Section -->
+    <section id="palmares" class="container">
+        <h2 class="section-title">Palmarés</h2>
+        <div class="table-section">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="Sextete.webp" class="card-img-top" alt="Trofeo">
+                        <div class="card-body">
+                            <h5 class="card-title">..</h5>
+                            <p class="card-text">Imagen del sextete conseguido en 2009.. Primer equipo en la historia en conseguirlo.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Agrega más trofeos de manera similar -->
+            </div>
+            <h2>Fútbol Masculino</h2>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Competiciones</th>
+                        <th>Campeonatos</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>La Liga</td>
+                        <td>1929, 1945-46, 1947-48, 1948-49, 1951-52, 1952-53, 1958-59, 1959-60, 1960-61, 1961-62, 1962-63, 1964-65, 1965-66, 1967-68, 1984-85, 1990-91, 1991-92, 1992-93, 1993-94, 1997-98, 2004-05, 2005-06, 2008-09, 2009-10, 2010-11, 2012-13, 2014-15, 2015-16, 2017-18, 2018-19, 2022-23</td>
+                    </tr>
+                    <tr>
+                        <td>Copa del Rey</td>
+                        <td>1910-11, 1911-12, 1912-13, 1920-21, 1921-22, 1924-25, 1925-26, 1927-28, 1941-42, 1950-51, 1951-52, 1952-53, 1956-57, 1957-58, 1958-59, 1962-63, 1967-68, 1970-71, 1977-78, 1980-81, 1982-83, 1987-88, 1996-97, 1997-98, 2008-09, 2011-12, 2014-15, 2015-16, 2020-21</td>
+                    </tr>
+                    <tr>
+                        <td>Champions League</td>
+                        <td>1991-92, 2005-06, 2008-09, 2010-11, 2014-15</td>
+                    </tr>
+                    <tr>
+                        <td>Supercopa de España</td>
+                        <td>1983, 1985, 1991, 1992, 1994, 1996, 2005, 2006, 2009, 2010, 2011, 2013, 2016, 2018, 2022</td>
+                    </tr>
+                    <tr>
+                        <td>Mundial de Clubes de la FIFA</td>
+                        <td>2009, 2011, 2015</td>
+                    </tr>
+                    <tr>
+                        <td>Supercopa de Europa</td>
+                        <td>1992, 1997, 2009, 2011, 2015</td>
+                    </tr>
+                    <tr>
+                        <td>Recopa de Europa</td>
+                        <td>1979, 1982, 1989, 1997</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!-- Palmarés Fútbol Femenino -->
+        <div class="table-section">
+            <h2>Fútbol Femenino</h2>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Competiciones</th>
+                        <th>Campeonatos</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Primera División Femenina</td>
+                        <td>2011-12, 2012-13, 2013-14, 2014-15, 2020-21, 2022-23</td>
+                    </tr>
+                    <tr>
+                        <td>Copa de la Reina</td>
+                        <td>2010-11, 2012-13, 2013-14, 2014-15, 2016-17, 2021-22</td>
+                    </tr>
+                    <tr>
+                        <td>Champions League Femenina</td>
+                        <td>2020-21</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Palmarés Hockey sobre Patines -->
+        <div class="table-section">
+            <h2>Hockey sobre Patines</h2>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Competiciones</th>
+                        <th>Campeonatos</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Liga Nacional de Hockey</td>
+                        <td>1951-52, 1952-53, 1953-54, 1955-56, 1956-57, 1957-58, 1958-59, 1959-60, 1960-61, 1961-62, 1962-63, 1963-64, 1964-65, 1965-66, 1966-67, 1968-69, 1971-72, 1974-75, 1975-76, 1976-77, 1980-81, 1982-83, 1983-84, 1984-85, 1987-88, 1988-89, 1990-91, 1991-92, 1993-94, 1994-95, 1997-98, 1999-2000, 2001-02, 2007-08, 2009-10, 2010-11, 2011-12, 2013-14, 2014-15, 2016-17, 2017-18, 2021-22</td>
+                    </tr>
+                    <tr>
+                        <td>Copa del Rey</td>
+                        <td>1950-51, 1951-52, 1953-54, 1956-57, 1957-58, 1958-59, 1961-62, 1962-63, 1963-64, 1964-65, 1967-68, 1973-74, 1974-75, 1976-77, 1982-83, 1983-84, 1984-85, 1990-91, 1992-93, 2004-05, 2008-09, 2010-11, 2011-12, 2014-15, 2021-22</td>
+                    </tr>
+                    <tr>
+                        <td>Euroliga de Hockey sobre Patines</td>
+                        <td>1970, 1971, 1972, 1976, 1981, 1982, 1990, 1991, 2011</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Palmarés Baloncesto -->
+        <div class="table-section">
+            <h2>Baloncesto</h2>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Competiciones</th>
+                        <th>Campeonatos</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>ACB</td>
+                        <td>1981-82, 1982-83, 1984-85, 1985-86, 1990-91, 1991-92, 1992-93, 1993-94, 1995-96, 1997-98, 1998-99, 2000-01, 2003-04, 2004-05, 2008-09, 2009-10, 2010-11, 2011-12, 2013-14, 2017-18, 2020-21</td>
+                    </tr>
+                    <tr>
+                        <td>Copa del Rey</td>
+                        <td>1979-80, 1982-83, 1984-85, 1986-87, 1995-96, 1999-2000, 2008-09, 2010-11, 2011-12, 2014-15, 2017-18, 2020-21</td>
+                    </tr>
+                    <tr>
+                        <td>Supercopa de España</td>
+                        <td>1983, 1984, 1991, 1996, 1999, 2009, 2010, 2011, 2018, 2020</td>
+                    </tr>
+                    <tr>
+                        <td>Euroliga</td>
+                        <td>2003-04, 2009-10</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Palmarés Balonmano -->
+        <div class="table-section">
+            <h2>Balonmano</h2>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Competiciones</th>
+                        <th>Campeonatos</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Asobal</td>
+                        <td>1991-92, 1993-94, 1994-95, 1995-96, 1997-98, 1999-2000, 2000-01, 2001-02, 2003-04, 2004-05, 2007-08, 2008-09, 2010-11, 2011-12, 2012-13, 2014-15, 2016-17, 2017-18</td>
+                    </tr>
+                    <tr>
+                        <td>Copa del Rey</td>
+                        <td>1990-91, 1991-92, 1994-95, 1998-99, 2000-01, 2001-02, 2002-03, 2003-04, 2005-06, 2008-09, 2009-10, 2010-11, 2011-12, 2014-15</td>
+                    </tr>
+                    <tr>
+                        <td>Supercopa de España</td>
+                        <td>1995, 1996, 2006, 2009, 2010, 2011, 2012, 2014, 2015</td>
+                    </tr>
+                    <tr>
+                        <td>Europaliga</td>
+                        <td>1995-96, 1998-99, 2010-11</td>
+                    </tr>
+                    2013-14, 2014-15, 2017-18, 2018-19, 2019-20.
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Palmarés Fútbol Sala -->
+        <div class="table-section">
+            <h2>Fútbol Sala</h2>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Competiciones</th>
+                        <th>Campeonatos</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>División de Honor</td>
+                        <td>1995-96, 1999-00, 2001-02, 2004-05, 2006-07, 2008-09, 2011-12, 2014-15, 2017-18</td>
+                    </tr>
+                    <tr>
+                        <td>Copa de España</td>
+                        <td>1989-90, 1995-96, 1999-2000, 2001-02, 2004-05, 2008-09, 2011-12, 2014-15</td>
+                    </tr>
+                    <tr>
+                        <td>Supercopa de España</td>
+                        <td>1989-90, 1995-96, 1999-2000, 2001-02, 2006-07, 2008-09, 2011-12, 2014-15</td>
+                    </tr>
+                    <tr>
+                        <td>Euroliga</td>
+                        <td>2000, 2005, 2009, 2012</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    </section>
+
+    <!-- Rivalidades Section -->
+    <section id="rivalidades" class="container">
+        <h2 class="section-title">Rivalidades Históricas</h2>
+        <!-- Rivalidad con el Real Madrid -->
+        <div class="rivalry-section">
+            <img src="Clasico.jpeg" class="img-fluid" alt="Imagen de El Clásico">
+            <h2>FC Barcelona vs Real Madrid</h2>
+            <p><strong>Nombre del Enfrentamiento:</strong> El Clásico</p>
+            <p><strong>Descripción:</strong> La rivalidad entre el FC Barcelona y el Real Madrid es una de las más intensas y conocidas en el fútbol mundial. Este enfrentamiento, conocido como "El Clásico", no solo es una batalla por el dominio en el fútbol español, sino que también tiene implicaciones políticas y sociales. La rivalidad se remonta a principios del siglo XX y ha sido escenario de numerosos partidos memorables, con ambos equipos intercambiando victorias en campeonatos nacionales e internacionales.</p>
+        </div>
+
+        <!-- Rivalidad con el Espanyol -->
+        <div class="rivalry-section">
+            <img src="Derbi.jpeg" class="img-fluid" alt="Imagen de El Derbi">
+            <h2>FC Barcelona vs RCD Espanyol</h2>
+            <p><strong>Nombre del Enfrentamiento:</strong> Derbi Barcelonés</p>
+            <p><strong>Descripción:</strong> El Derbi Barcelonés enfrenta al FC Barcelona y al RCD Espanyol, dos equipos de la misma ciudad. La rivalidad tiene raíces profundas en la historia local y se manifiesta en el enfrentamiento anual entre los dos equipos. A menudo se ve como un duelo entre el club más grande de la ciudad y el equipo tradicionalmente más modesto, pero que siempre lucha con pasión en cada enfrentamiento.</p>
+        </div>
+
+        <!-- Rivalidad con el Atlético de Madrid -->
+        <div class="rivalry-section">
+            <img src="Atletico.webp" class="img-fluid" alt="Imagen Atletico">
+            <h2>FC Barcelona vs Atlético de Madrid</h2>
+            <p><strong>Nombre del Enfrentamiento:</strong> Barcelona-Atlético</p>
+            <p><strong>Descripción:</strong> La rivalidad entre el FC Barcelona y el Atlético de Madrid ha crecido en intensidad en las últimas décadas, especialmente con el Atlético emergiendo como un competidor serio en la Liga. Los partidos entre estos dos equipos a menudo son disputados y pueden tener un gran impacto en la lucha por el título de La Liga.</p>
+        </div>
+
+        <!-- Rivalidad con el Manchester United -->
+        <div class="rivalry-section">
+            <img src="Manchester.jpeg" class="img-fluid" alt="Imagen United">
+            <h2>FC Barcelona vs Manchester United</h2>
+            <p><strong>Nombre del Enfrentamiento:</strong> Barcelona-Manchester United</p>
+            <p><strong>Descripción:</strong> Esta rivalidad se ha desarrollado principalmente en competiciones europeas, como la UEFA Champions League. Los enfrentamientos entre el FC Barcelona y el Manchester United han producido algunos de los partidos más memorables en la historia reciente del fútbol, destacando la final de la Champions League de 2009 y 2011, donde el Barcelona se llevó la victoria en ambos casos.</p>
+        </div>
+
+        <!-- Rivalidad con el Chelsea -->
+        <div class="rivalry-section">
+            <img src="Chelsea.jpeg" class="img-fluid" alt="Imagen Chelsea">
+            <h2>FC Barcelona vs Chelsea</h2>
+            <p><strong>Nombre del Enfrentamiento:</strong> Barcelona-Chelsea</p>
+            <p><strong>Descripción:</strong> La rivalidad entre el FC Barcelona y el Chelsea también se ha destacado en la UEFA Champions League. Los partidos entre estos dos equipos han sido intensos, con momentos polémicos y partidos decisivos que han influido en la historia de la competición europea.</p>
+        </div>
+
+        <!-- Rivalidad con el Paris Saint-Germain (PSG) -->
+        <div class="rivalry-section">
+            <img src="P$G.jpg" class="img-fluid" alt="Imagen de Paris">
+            <h2>FC Barcelona vs Paris Saint-Germain (PSG)</h2>
+            <p><strong>Nombre del Enfrentamiento:</strong> Barcelona-PSG</p>
+            <p><strong>Descripción:</strong> La rivalidad con el PSG ha crecido en los últimos años debido a los enfrentamientos en la UEFA Champions League. Los partidos entre el FC Barcelona y el PSG han sido muy competitivos, destacando el partido de vuelta de los octavos de final de la Champions League 2016-17, donde el Barcelona logró una remontada histórica.</p>
+        </div>
+    </div>
+        
+    </section>
+
+    <!-- Jugadores Emblemáticos Section -->
+    <section id="jugadores" class="container">
+        <div class="container mt-4">
+            <h1 class="text-center mb-4">Jugadores Emblemáticos del FC Barcelona</h1>
+    
+            <div class="row">
+                <!-- Lionel Messi -->
+                <div class="col-md-4">
+                    <div class="player-card">
+                        <img src="Messi.jpeg" class="img-Fut" alt="Imagen Futbol">
+                        <h3>Lionel Messi</h3>
+                        <p><strong>Posición:</strong> Delantero</p>
+                        <p>Considerado uno de los mejores futbolistas de todos los tiempos, Messi es el máximo goleador del club y ha ganado numerosos títulos, incluyendo varios Balones de Oro.</p>
+                    </div>
+                </div>
+    
+                <!-- Johan Cruyff -->
+                <div class="col-md-4">
+                    <div class="player-card">
+                        <img src="Johan.jpeg" class="img-Fut" alt="Imagen Futbol">
+                        <h3>Johan Cruyff</h3>
+                        <p><strong>Posición:</strong> Delantero/Medio</p>
+                        <p>Revolucionó el fútbol con su estilo de juego y su visión, introduciendo el "fútbol total" en el Barcelona. Fue una figura clave en la transformación del club.</p>
+                    </div>
+                </div>
+    
+                <!-- Xavi Hernández -->
+                <div class="col-md-4">
+                    <div class="player-card">
+                        <img src="Xavi.jpg" class="img-Fut" alt="Imagen Futbol">
+                        <h3>Xavi Hernández</h3>
+                        <p><strong>Posición:</strong> Centrocampista</p>
+                        <p>Conocido por su excepcional visión y control del juego, Xavi fue fundamental en el éxito del equipo durante una era dorada.</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="row">
+                <!-- Andrés Iniesta -->
+                <div class="col-md-4">
+                    <div class="player-card">
+                        <img src="Andres.jpeg" class="img-Fut" alt="Imagen Futbol">
+                        <h3>Andrés Iniesta</h3>
+                        <p><strong>Posición:</strong> Centrocampista</p>
+                        <p>Destacado por su habilidad técnica y su capacidad para marcar en momentos decisivos, Iniesta fue clave en la conquista de numerosos títulos, incluyendo la final del Mundial 2010.</p>
+                    </div>
+                </div>
+    
+                <!-- Ronaldinho -->
+                <div class="col-md-4">
+                    <div class="player-card">
+                        <img src="Ronaldinho2.jpeg" class="img-Fut" alt="Imagen Futbol">
+                        <h3>Ronaldinho</h3>
+                        <p><strong>Posición:</strong> Delantero/Extremo</p>
+                        <p>Su magia en el campo revitalizó el Barcelona y atrajo a muchos aficionados, siendo uno de los jugadores más entretenidos y creativos del club.</p>
+                    </div>
+                </div>
+    
+                <!-- Carles Puyol -->
+                <div class="col-md-4">
+                    <div class="player-card">
+                        <img src="Puyol.jpeg" class="img-Fut" alt="Imagen Futbol">
+                        <h3>Carles Puyol</h3>
+                        <p><strong>Posición:</strong> Defensa</p>
+                        <p>Capitán del equipo durante muchos años, Puyol fue conocido por su liderazgo, solidez defensiva y dedicación al club.</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="row">
+                <!-- Samuel Eto’o -->
+                <div class="col-md-4">
+                    <div class="player-card">
+                        <img src="Etoo.jpg" class="img-Fut" alt="Imagen Futbol">
+                        <h3>Samuel Eto’o</h3>
+                        <p><strong>Posición:</strong> Delantero</p>
+                        <p>Un prolífico goleador que jugó un papel crucial en el triplete del Barcelona en 2009, contribuyendo significativamente con sus goles.</p>
+                    </div>
+                </div>
+    
+                <!-- Pep Guardiola -->
+                <div class="col-md-4">
+                    <div class="player-card">
+                        <img src="Pep2.jpg" class="img-Fut" alt="Imagen Futbol">
+                        <h3>Pep Guardiola</h3>
+                        <p><strong>Posición:</strong> Centrocampista</p>
+                        <p>Además de ser un excelente jugador, Guardiola es conocido por su éxito como entrenador, implementando un estilo de juego revolucionario.</p>
+                    </div>
+                </div>
+    
+                <!-- Luis Suárez Miramontes -->
+                <div class="col-md-4">
+                    <div class="player-card">
+                        <img src="Suarez.jpeg" class="img-Fut" alt="Imagen Futbol">
+                        <h3>Luis Suárez Miramontes</h3>
+                        <p><strong>Posición:</strong> Centrocampista</p>
+                        <p>Ganador del Balón de Oro, Suárez fue uno de los mejores centrocampistas de su época y una figura clave en el Barcelona.</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="row">
+                <!-- Ronald Koeman -->
+                <div class="col-md-4">
+                    <div class="player-card">
+                        <img src="Koeman2.jpeg" class="img-Fut" alt="Imagen Futbol">
+                        <h3>Ronald Koeman</h3>
+                        <p><strong>Posición:</strong> Defensa</p>
+                        <p>Conocido por su potente tiro libre, Koeman fue crucial en el triunfo de la Copa de Europa en 1992 y en la defensa del equipo.</p>
+                    </div>
+                </div>
+    
+                <!-- Hristo Stoichkov -->
+                <div class="col-md-4">
+                    <div class="player-card">
+                        <img src="Hristo.jpeg" class="img-Fut" alt="Imagen Futbol">
+                        <h3>Hristo Stoichkov</h3>
+                        <p><strong>Posición:</strong> Delantero</p>
+                        <p>Famoso por su capacidad goleadora y su actitud competitiva, Stoichkov fue una pieza clave en el equipo durante la era de Cruyff.</p>
+                    </div>
+                </div>
+    
+               <!-- Kubala -->
+              <div class="col-md-4">
+              <div class="player-card">
+                <img src="Kubala.jpeg" class="img-Fut" alt="Imagen Futbol">
+              <h3>László Kubala</h3>
+              <p><strong>Posición:</strong> Delantero</p>
+              <p>Uno de los jugadores más importantes en la historia del club, conocido por su habilidad ofensiva y su capacidad para marcar goles.</p>
+             </div>
+             </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 FC Barcelona. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
